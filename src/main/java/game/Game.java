@@ -40,8 +40,10 @@ public class Game {
         //Sets the input file to the user input.
         askFileName();
 
-        //Asks the user for a file until the file matches the criteria.
-        //Creates the card objects from the file information.
+        /*
+        Asks the user for a file until the file matches the criteria.
+        Creates the card objects from the file information.
+        */
         while (!readFile(inputFile.getName())){
             askFileName();
         }
